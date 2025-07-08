@@ -1,5 +1,45 @@
 # @mdn/browser-compat-data release notes
 
+## [v6.0.30](https://github.com/mdn/browser-compat-data/releases/tag/v6.0.30)
+
+July 8, 2025
+
+### Removals
+
+- `api.Document.write.accepts_TrustedHTML` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.Document.writeln.accepts_TrustedHTML` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.Element.innerHTML.accepts_TrustedHTML` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.ShadowRoot.innerHTML.accepts_TrustedHTML` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+
+### Additions
+
+- `api.Document.parseHTMLUnsafe_static.enforces_trusted_types` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.Document.write.enforces_trusted_types` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.Document.writeln.enforces_trusted_types` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.DOMParser.parseFromString.enforces_trusted_types` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.Element.innerHTML.enforces_trusted_types` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.Element.insertAdjacentHTML.enforces_trusted_types` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.Element.outerHTML.enforces_trusted_types` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.Element.setHTMLUnsafe.enforces_trusted_types` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.HTMLIFrameElement.srcdoc.enforces_trusted_types` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.MediaStreamTrack.getSettings.return_object_property_screenPixelRatio` ([#27238](https://github.com/mdn/browser-compat-data/pull/27238))
+- `api.Range.createContextualFragment.enforces_trusted_types` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.ShadowRoot.innerHTML.enforces_trusted_types` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.ShadowRoot.setHTMLUnsafe.enforces_trusted_types` ([#27114](https://github.com/mdn/browser-compat-data/pull/27114))
+- `api.VideoDecoder.configure.flip_option` ([#27249](https://github.com/mdn/browser-compat-data/pull/27249))
+- `api.VideoDecoder.configure.rotation_option` ([#27249](https://github.com/mdn/browser-compat-data/pull/27249))
+- `api.VideoDecoder.isConfigSupported_static.flip_option` ([#27249](https://github.com/mdn/browser-compat-data/pull/27249))
+- `api.VideoDecoder.isConfigSupported_static.rotation_option` ([#27249](https://github.com/mdn/browser-compat-data/pull/27249))
+- `api.VideoFrame.VideoFrame.flip_option` ([#27249](https://github.com/mdn/browser-compat-data/pull/27249))
+- `api.VideoFrame.VideoFrame.rotation_option` ([#27249](https://github.com/mdn/browser-compat-data/pull/27249))
+
+### Statistics
+
+- 8 contributors have changed 28 files with 733 additions and 140 deletions in 16 commits ([`v6.0.29...v6.0.30`](https://github.com/mdn/browser-compat-data/compare/v6.0.29...v6.0.30))
+- 17,621 total features
+- 1,169 total contributors
+- 5,307 total stargazers
+
 ## [v6.0.29](https://github.com/mdn/browser-compat-data/releases/tag/v6.0.29)
 
 July 4, 2025
